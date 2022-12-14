@@ -39,7 +39,7 @@ while True:
         compare = fc.compare_faces(features, encode_face)
         print(face_dis)
         index = np.argmin(face_dis)
-        print(index)
+        #print(index)
         name = names[index]
         print(name)
         if True in compare:
